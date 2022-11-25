@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KaydolActivity">
+
+    <ImageView
+        android:id="@+id/imgKaydolS"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/kullanici_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tbAdSoyadS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:hint=""
+        android:padding="13dp"
+        android:textColor="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgKaydolS"
+        app:layout_constraintWidth_percent=".8" />
+
+    <TextView
+        android:id="@+id/lblVarS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lütfen öncelikle telefonunuzdan konumu açınız!"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLokasyon"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/btnLokasyon"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/teal_700"
+        android:padding="14dp"
+        android:text="Lokasyonum"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbLokasyon" />
+
+    <EditText
+        android:id="@+id/tbLokasyon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:hint="Bekleniyor.."
+        android:padding="13dp"
+        android:textColor="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbEPostaS"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/tbParolaS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:hint=""
+        android:padding="13dp"
+        android:textColor="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbEPostaS"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/tbEPostaS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="13dp"
+        android:elevation="3dp"
+        android:hint=""
+        android:padding="13dp"
+        android:textColor="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbAdSoyadS"
+        app:layout_constraintWidth_percent=".8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

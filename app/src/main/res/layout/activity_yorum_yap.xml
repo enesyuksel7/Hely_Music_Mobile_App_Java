@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/background_color"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/yorum_yap_sarki_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:src="@drawable/bpg"
+                        android:backgroundTint="#ffff" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            style="@style/Widget.Neumorph.TextView">
+
+            <TextView
+                android:id="@+id/yorum_yap_sarki_adi_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:text="Karikatür Komedya"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="290dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="pressed">
+
+                <EditText
+                    android:id="@+id/yorum_yap_yorum_edtTxt"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Yorumunuz.."
+                    android:inputType="text"
+                    android:maxLines="3"
+                    android:padding="14dp"
+                    android:paddingEnd="0dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    android:autofillHints=""
+                    tools:ignore="RtlSymmetry" />
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.Neumorph.FloatingActionButton">
+                <ImageView
+                    android:id="@+id/yorum_yap_ses_al_btn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_baseline_mic_24"
+                    android:layout_gravity="center" />
+            </soup.neumorphism.NeumorphCardView>
+        </LinearLayout>
+
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="30dp"
+            style="@style/Widget.Neumorph.CardView"
+            app:neumorph_shapeType="pressed">
+
+            <RatingBar
+                android:id="@+id/yorum_yap_rating_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:numStars="5"
+                android:progressBackgroundTint="@color/colorGray2"
+                android:progressTint="@color/colorPrimaryDark"
+                android:stepSize=".5" />
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/yorum_yap_kaydet_btn"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="70dp"
+            android:gravity="center"
+            android:text="Kaydet"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/text_color"
+            style="@style/Widget.Neumorph.Button">
+        </soup.neumorphism.NeumorphButton>
+    </LinearLayout>
+</RelativeLayout>

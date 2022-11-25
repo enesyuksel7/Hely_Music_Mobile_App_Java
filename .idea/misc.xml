@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HilalSeyhan/Desktop/Hely1/Hely/app/src/main/res/drawable/ctr_bg.xml" value="0.2085" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/Hely1/Hely/app/src/main/res/drawable/layout_bg.xml" value="0.2085" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/Hely1/Hely/app/src/main/res/drawable/layout_bg_soz.xml" value="0.2615" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/Hely1/Hely/app/src/main/res/layout/activity_oturum.xml" value="0.3482789855072464" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/Hely1/Hely/app/src/main/res/layout/activity_parca.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/Hely1/Hely/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/Hely1/Hely/app/src/main/res/layout/home_vertical_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/Hely1/Hely/app/src/main/res/layout/layout_bg_soz.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/drawable/ic_baseline_add_comment_white.xml" value="0.2985" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/drawable/ic_baseline_queue_music_24.xml" value="0.2985" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/drawable/ic_baseline_volume_up_24.xml" value="0.2985" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/layout/activity_deneme.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/layout/activity_hosgeldiniz.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/layout/activity_parca.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/layout/activity_yorum.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/layout/activity_yorum_yap.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/layout/activity_yorumlar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/layout/editor_item.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/layout/fragment_deneme.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/layout/fragment_editor.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/layout/fragment_home.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/layout/fragment_yorumlar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/layout/home_vertical_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely16062/helymison/Hely1/Hely/app/src/main/res/layout/yorum_item.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely1806/helymison/Hely1/Hely/app/src/main/res/drawable/ctr_bg.xml" value="0.2985" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely1806/helymison/Hely1/Hely/app/src/main/res/drawable/default_bg.xml" value="0.2985" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely1806/helymison/Hely1/Hely/app/src/main/res/layout/activity_yorum_yap.xml" value="0.33" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely1806/helymison/Hely1/Hely/app/src/main/res/layout/activity_yorumlar.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely1806/helymison/Hely1/Hely/app/src/main/res/layout/fragment_deneme.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/hely1806/helymison/Hely1/Hely/app/src/main/res/layout/fragment_home.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/helymison/Hely1/Hely/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/helymison/Hely1/Hely/app/src/main/res/layout/activity_navigation_drawer2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/helymison/Hely1/Hely/app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/helymison/Hely1/Hely/app/src/main/res/layout/fragment_muzik_calar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/mobilProjebir/Hely/app/src/main/res/drawable-v24/search_bg.xml" value="0.33" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/mobilProjebir/Hely/app/src/main/res/drawable/change_bg.xml" value="0.1" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/mobilProjebir/Hely/app/src/main/res/drawable/default_bg.xml" value="0.1" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/mobilProjebir/Hely/app/src/main/res/drawable/round_bg.xml" value="0.1" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/mobilProjebir/Hely/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/mobilProjebir/Hely/app/src/main/res/layout/fragment_kategoriler.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/mobilProjebir/Hely/app/src/main/res/layout/home_horizontal_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/mobilProjebir/Hely/app/src/main/res/layout/home_vertical_item.xml" value="0.5" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/sonmukison/hely2006/helymison/Hely1/Hely/app/src/main/res/drawable-v24/pause.xml" value="0.2985" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/sonmukison/hely2006/helymison/Hely1/Hely/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.2985" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/sonmukison/hely2006/helymison/Hely1/Hely/app/src/main/res/layout/activity_deneme.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/sonmukison/hely2006/helymison/Hely1/Hely/app/src/main/res/layout/activity_muzik_calar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/sonmukison/hely2006/helymison/Hely1/Hely/app/src/main/res/layout/activity_parca.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/sonmukison/hely2006/helymison/Hely1/Hely/app/src/main/res/layout/activity_seslendir.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/sonmukison/hely2006/helymison/Hely1/Hely/app/src/main/res/layout/activity_yorum_yap.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/sonmukison/hely2006/helymison/Hely1/Hely/app/src/main/res/layout/activity_yorumlar.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/sonmukison/hely2006/helymison/Hely1/Hely/app/src/main/res/layout/fragment_deneme.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/sonmukison/hely2006/helymison/Hely1/Hely/app/src/main/res/layout/fragment_editor.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/sonmukison/hely2006/helymison/Hely1/Hely/app/src/main/res/layout/fragment_muzik_calar.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/HilalSeyhan/Desktop/sonmukison/hely2006/helymison/Hely1/Hely/app/src/main/res/layout/fragment_parca.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/drawable/ctr_bg.xml" value="0.214" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.214" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.22" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/drawable/layout_bg.xml" value="0.214" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/drawable/side_nav_bar.xml" value="0.214" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/activity_hosgeldiniz.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/activity_kaydol.xml" value="0.33" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/activity_main.xml" value="0.3374094202898551" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/activity_oturum.xml" value="0.33" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/activity_parca.xml" value="0.33" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/content_navigation_drawer.xml" value="0.2115036231884058" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/deneme_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/fragment_ayarlar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/fragment_editor.xml" value="0.1" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/fragment_home.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/fragment_kategoriler.xml" value="0.3374094202898551" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/fragment_oturum.xml" value="0.3374094202898551" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/fragment_parca.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.3374094202898551" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/jetti/AndroidStudioProjects/Hely/app/src/main/res/menu/navigation_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/activity_oturum.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/activity_parca.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/activity_splash_screen.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/content_navigation_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/fragment_ana_card.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/fragment_ayarlar.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/fragment_cikis_yap.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/fragment_editor.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/fragment_haberler.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/fragment_kategoriler.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/fragment_parca.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/home_horizontal_item.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/home_vertical_item.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/menu/activity_main_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely/app/src/main/res/menu/navigation_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/jetti/Desktop/Hely1/Hely/app/src/main/res/layout/activity_kaydol.xml" value="0.375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

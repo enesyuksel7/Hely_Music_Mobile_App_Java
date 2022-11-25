@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.hely.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_haberler"
+        android:name="com.example.hely.ui.haberler.HaberlerFragment"
+        android:label="Haberler"
+        tools:layout="@layout/fragment_haberler" />
+
+    <fragment
+        android:id="@+id/nav_editor"
+        android:name="com.example.hely.ui.editor.EditorFragment"
+        android:label="@string/editorunsecimi"
+        tools:layout="@layout/fragment_editor" />
+    <fragment
+        android:id="@+id/nav_ayarlar"
+        android:name="com.example.hely.AyarlarFragment"
+        android:label="@string/ayarlar"
+        tools:layout="@layout/fragment_ayarlar" />
+</navigation>

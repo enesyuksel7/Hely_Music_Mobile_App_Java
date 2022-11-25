@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ctr_bg"
+    tools:context=".ParcaActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar2"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:theme="@style/AppTheme"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="Hayalet Islığı"
+            android:id="@+id/collapsing_toolbar2"
+            android:background="@drawable/ctr_bg">
+
+            <ImageView
+                android:id="@+id/imgKapak2"
+                android:layout_width="320dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center|end"
+                android:layout_marginBottom="15dp"
+                app:layout_collapseMode="parallax"/>
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"/>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_bg"
+        android:padding="20dp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgSanatci2"
+                android:layout_width="1dp"
+                android:layout_height="80dp"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintVertical_bias="0"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/lblParcaAdi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dokunmayarayaparsın"
+                android:textSize="18sp"
+                android:textColor="#000"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintVertical_bias="0"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imgSanatci2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgSanatci2"
+                app:layout_constraintTop_toTopOf="@+id/imgSanatci2"/>
+
+            <TextView
+                android:id="@+id/lblTarih2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nisan/2003"
+                android:textSize="14sp"
+                android:textColor="#000"
+                app:layout_constraintHorizontal_bias="1"
+                app:layout_constraintVertical_bias="0"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imgSanatci2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgSanatci2"
+                app:layout_constraintTop_toTopOf="@+id/imgSanatci2"/>
+
+            <TextView
+                android:id="@+id/lblSanatci2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Farazi V Kayra"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imgSanatci2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toEndOf="@+id/imgSanatci2"
+                app:layout_constraintTop_toBottomOf="@+id/lblParcaAdi2"
+                app:layout_constraintVertical_bias="0"/>
+
+            <TextView
+                android:id="@+id/lblParcaSozleri2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Mangaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                android:textSize="14sp"
+                app:layout_constraintVertical_bias="0"
+                android:layout_marginTop="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/lblTarih2"
+                app:layout_constraintStart_toStartOf="@+id/imgSanatci2"
+                app:layout_constraintTop_toBottomOf="@+id/imgSanatci2"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/flaoting_btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#facf5a"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="end|bottom" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

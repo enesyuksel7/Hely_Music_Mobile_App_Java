@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Hely</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="oturum_ac_kaydol">Oturum Aç/Kaydol</string>
+    <string name="kategoriler">Kategoriler</string>
+    <string name="ana_sayfa">Ana Sayfa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ayarlar">Ayarlar</string>
+    <string name="ad_soyad">Ad Soyad</string>
+    <string name="kullanici_mail_com">kullanici@mail.com</string>
+    <string name="editorunsecimi">Editörün Seçimi</string>
+    <string name="cikisyap">Çıkış Yap</string>
+    <string name="hesap_olustur">Hesap oluştur</string>
+    <string name="oturum_ac">Oturum Aç</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="home_ver_parca_adi">Parça Adı</string>
+    <string name="home_rating_txt">5.0</string>
+    <string name="home_ver_sanatci">Sanatçı</string>
+</resources>

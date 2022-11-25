@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "707792081747",
+    "firebase_url": "https://hely-1606-default-rtdb.firebaseio.com",
+    "project_id": "hely-1606",
+    "storage_bucket": "hely-1606.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707792081747:android:e2d436f854390fa85a87a6",
+        "android_client_info": {
+          "package_name": "com.example.hely"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707792081747-k6nl4a10hu0inkq7u8vqhv1djpqitgk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo91WqZwkmmTWG0CTC-eggyGXxXGJllfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707792081747-k6nl4a10hu0inkq7u8vqhv1djpqitgk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

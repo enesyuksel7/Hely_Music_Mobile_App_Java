@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KaydolActivity">
+
+    <ImageView
+        android:id="@+id/imgKaydol"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/hely_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tbAdSoyadK"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:hint="Ad Soyad"
+        android:padding="13dp"
+        android:textColor="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgKaydol"
+        app:layout_constraintWidth_percent=".8" />
+
+    <ProgressBar
+        android:id="@+id/progressbarK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblOturumAc"
+        app:layout_constraintVertical_bias="0.312" />
+
+    <TextView
+        android:id="@+id/lblVar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hesabın var mı?"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnKaydol"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <Button
+        android:id="@+id/btnKaydol"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/teal_700"
+        android:padding="14dp"
+        android:text="Kaydol"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbParolaK" />
+
+    <EditText
+        android:id="@+id/tbParolaK"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:hint="Parola"
+        android:inputType="textPassword"
+        android:padding="13dp"
+        android:textColor="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbEPostaK"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/tbEPostaK"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="13dp"
+        android:elevation="3dp"
+        android:hint="E-Posta"
+        android:padding="13dp"
+        android:textColor="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbAdSoyadK"
+        app:layout_constraintWidth_percent=".8" />
+
+    <TextView
+        android:id="@+id/lblOturumAc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oturum Aç"
+        android:textColor="@color/teal_700"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/lblVar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/lblVar"
+        app:layout_constraintTop_toTopOf="@+id/lblVar"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

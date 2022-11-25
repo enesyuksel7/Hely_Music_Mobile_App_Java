@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OturumActivity">
+
+    <ImageView
+        android:id="@+id/imgOturum"
+        android:layout_width="408dp"
+        android:layout_height="183dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/hely_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressbarO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblYok"
+        app:layout_constraintVertical_bias="0.225" />
+
+    <TextView
+        android:id="@+id/lblHesapOlustur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hesap_olustur"
+        android:textColor="@color/teal_700"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/lblYok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toEndOf="@+id/lblYok"
+        app:layout_constraintTop_toTopOf="@+id/lblYok"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnOturum"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/teal_700"
+        android:padding="14dp"
+        android:text="@string/oturum_ac"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbParolaO" />
+
+    <EditText
+        android:id="@+id/tbEPostaO"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="13dp"
+        android:elevation="3dp"
+        android:hint="E-Posta"
+        android:text="q"
+        android:padding="13dp"
+        android:textColor="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgOturum"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/tbParolaO"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:hint="Parola"
+        android:text="q"
+        android:inputType="textPassword"
+        android:padding="13dp"
+        android:textColor="#888887"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbEPostaO"
+        app:layout_constraintWidth_percent=".8" />
+
+    <TextView
+        android:id="@+id/lblYok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hesabın yok mu?"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.341"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOturum"
+        app:layout_constraintVertical_bias="0.218" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

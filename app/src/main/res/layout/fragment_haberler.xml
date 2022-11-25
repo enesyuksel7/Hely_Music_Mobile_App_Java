@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/kart1"
+                android:layout_width="wrap_content"
+                android:layout_height="483dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/edtKapak1"
+                    android:layout_width="112dp"
+                    android:layout_height="112dp"
+                    android:layout_gravity="left"
+                    android:layout_margin="30dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/hiphoplife" />
+
+                <ImageView
+                    android:id="@+id/edtKapak1_1"
+                    android:layout_width="112dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="30dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/hiphopjam_poster" />
+
+                <TextView
+                    android:id="@+id/baslik1"
+                    android:layout_width="212dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginTop="20dp"
+                    android:text="HİPHOP JAM Konser"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/yorum1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Hip Hop kültürünün bütün unsurlarının bir arada hayat bulacağı HipHop Jam İstanbul 2015, Pozitif Live ve Hiphoplife işbirliği ile 5 Aralık Cumartesi günü Volkswagen Arena’da Hip Hop camiasının en büyük isimlerini bir araya getirmeye hazırlanıyor. Türk Rap müziğinin en önemli isimlerinin sahne alacağı etkinliğin headliner’ı, canlı orkestrası ile Türkiye’nin en popüler rapper’ı Ceza olacak. Break dans, rap, graffiti ve dj performanslarıyla dolu etkinlik, Hip Hop severlere kendi dünyalarını tam anlamıyla yaşatacak."
+                    android:textColor="@color/black" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/kart2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/edtKapak2"
+                    android:layout_width="300dp"
+                    android:layout_height="112dp"
+                    android:layout_gravity="bottom|center"
+                    android:layout_margin="30dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/yedinci_ev_konser" />
+
+                <TextView
+                    android:id="@+id/baslik2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Yedinci Ev Küçükçiftlik Park’ta"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/yorum2"
+                    android:layout_width="324dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Sevsene Beni, Kalbim Seni Arıyor, Sarhoşum gibi şarkılarıyla tanınan Yedinci Ev 31 Mayıs'ta Küçükçiftlik sahnesine konuk oluyor. Yedinci Ev geçtiğimiz yaz yayınladıkları İçine Düştüm isimli albümlerinin yanı sıra ilk albümleri Şimdiden de sevilen şarkılara yer vereceği performansları ile mayıs ayının son İstanbul konserinde dinleyicileri ile buluşuyor."
+                    android:textColor="@color/black" />
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </ScrollView>
+</RelativeLayout>

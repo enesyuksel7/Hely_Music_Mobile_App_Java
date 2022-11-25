@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hely">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hely">
+        <activity
+            android:name=".ui.muzikCalar.MuzikCalarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.yorum.SeslendirActivity"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAa_93vvwHJ2TX6Y1nMtnS3q-XRCYF36uw" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".ParcaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.yorum.YorumlarActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Hely.NoActionBar" />
+        <activity
+            android:name=".ui.yorum.YorumYapActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Hely.NoActionBar" />
+        <activity
+            android:name=".deneme.DenemeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KaydolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OturumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HosgeldinizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationDrawer"
+            android:exported="false"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/Theme.Hely.NoActionBar" />
+        <activity
+            android:name=".NavigationDrawer2"
+            android:exported="false"
+            android:theme="@style/Theme.Hely.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="9dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ver_img"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hely_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/home_constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/round_bg"
+            app:layout_constraintVertical_bias="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/ver_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_ver_parca_adi"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias=".15"
+                app:layout_constraintHorizontal_bias=".1"
+                android:layout_marginTop="10dp"/>
+
+<!--
+
+            <ImageView
+                android:id="@+id/ratingBarImage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/hely_logo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ver_txt"
+                app:layout_constraintHorizontal_bias="1"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="9dp"/>
+-->
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="2"
+                android:numStars="5"
+                style="@android:style/Widget.Holo.RatingBar.Small"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ver_txt"
+                app:layout_constraintHorizontal_bias="1"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="25dp"/>
+
+
+            <TextView
+                android:id="@+id/txtRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_rating_txt"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:paddingRight="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/ratingBar"
+                app:layout_constraintEnd_toStartOf="@+id/ratingBar"
+                app:layout_constraintTop_toTopOf="@+id/ratingBar"/>
+
+            <TextView
+                android:id="@+id/home_ver_sanatci"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingRight="8dp"
+                android:text="@string/home_ver_sanatci"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/ver_txt"
+                tools:layout_editor_absoluteX="31dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias=".15"
+                app:layout_constraintHorizontal_bias=".1"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/ver_button"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Detay"
+                android:textSize="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="italic"
+                app:layout_constraintStart_toEndOf="@+id/txtRatingBar"
+                app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
